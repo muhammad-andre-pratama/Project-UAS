@@ -1,0 +1,21 @@
+<nav class="navbar navbar-light sticky-top shadow-sm bg-light" style="height: 70px;" id="myNav">
+  <ul class="nav ">
+      <li class="nav-item mr-3">
+        <a class="navbar-brand">My Gallery</a>
+      </li>
+  </ul>
+  <ul class="nav justify-content-end">
+      <li class="nav-item mr-3" style="margin-top: -20px;">
+          <a class="icon-user mr-4" uk-icon="icon: user"><p class="float-left mt-2 mr-2">User</p></a>
+          <a routerLink="/login" uk-icon="icon: sign-out;" uk-tooltip="Sign out"></a>
+      </li>
+  </ul>
+</nav>
+<div>
+  <a (click)="tambahdata()" type="button" class="button uk-button-primary uk-position-top-right" class="uk-position-small uk-position-center uk-overlay uk-overlay-default" style="margin-bottom: 70px;" >
+    <mat-icon>add</mat-icon>
+  </a>
+</div>
+  <p class="uk-position-small uk-position-center uk-overlay uk-overlay-default" style="margin-top: 60px; margin-left: 20px;">Upload disini!!</p>
+  
+ 

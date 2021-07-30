@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "projectakhir-83d06": {
+      "hosting": {
+        "projectakhir": [
+          "projectakhir-83d06"
+        ]
+      }
+    }
+  }
+}
